@@ -1,0 +1,19 @@
+.nav {
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  height: 100%;
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  &__item {
+    color: #ffffff;
+    & a {
+      color: #ffffff;
+    }
+  } 
+}

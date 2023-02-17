@@ -1,0 +1,43 @@
+.about {
+  @media screen and (max-width: 1199px) {
+    &__list {
+      font-size: 25px;
+      line-height: 35px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+
+    &__logo {
+      max-width: 460px;
+      margin: 0 auto;
+    }
+    &__title {
+      max-width: 460px;
+      margin: 30px auto 30px;
+    }
+    &__list {
+      max-width: 460px;
+      margin: 0 auto;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    &__logo {
+      max-width: 360px;
+    }
+    &__title {
+      margin: 0 auto 20px;
+    }
+    &__list {
+      font-size: 15px;
+      line-height: 18px;
+      & li {
+        margin-bottom: 10px;
+        padding-left: 25px;
+        &::before {
+          width: 10px;
+          height: 10px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.footer {
+  @media screen and (max-width: 991px) {
+    &__bottom {
+      font-size: 13px;
+      line-height: 15px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    &__top,
+    &__bottom {
+      min-height: 50px;
+      padding: 10px 0;
+    }
+    &__phone {
+      font-size: 13px;
+    }
+    &__develop,
+    &__copyright,
+    &__privacy {
+      text-align-last: left;
+      margin-bottom: 10px;
+    }
+  }
+}

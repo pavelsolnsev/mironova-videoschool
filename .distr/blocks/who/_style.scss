@@ -1,0 +1,14 @@
+.who {
+  background: url("../img/who/who_bg.png") no-repeat center center / cover;
+  padding: 200px 0;
+
+  &__title {
+    color: #5100a1;
+    margin-bottom: 50px;
+  }
+  &__descr {
+    font-size: 45px;
+    line-height: 50px;
+    color: #5100a1;
+  }
+}

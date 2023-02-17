@@ -1,0 +1,55 @@
+.reg {
+  position: relative;
+
+  &__block {
+    position: absolute;
+    background: #ffffff;
+    box-shadow: 40px 40px 120px rgba(173, 38, 255, 0.15);
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1140px;
+    width: 100%;
+    z-index: 10;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 95px;
+    &-left {
+      width: 50%;
+    }
+    &-right {
+      width: 40%;
+    }
+  }
+  h2 {
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 30px;
+  }
+  &__descr {
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 30px;
+    & span {
+      position: relative;
+      &::after {
+        position: absolute;
+        content: "";
+        width: 104px;
+        height: 17px;
+        background: #fdf406;
+        bottom: -3px;
+        left: 0;
+        z-index: -1;
+      }
+    }
+  }
+  &__bonus {
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 55px;
+    color: #5100a1;
+  }
+}

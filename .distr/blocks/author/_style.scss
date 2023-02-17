@@ -1,0 +1,40 @@
+.author {
+  background: url("../img/author/author_bg.png") no-repeat center center / cover;
+  padding: 100px 0;
+  .container {
+    max-width: 1560px;
+  }
+  &__title {
+    color: #5100a1;
+    position: relative;
+    padding-left: 50px;
+    &_big {
+      font-weight: normal;
+      font-size: 45px;
+      line-height: 50px;
+      margin-bottom: 15px;
+    }
+    &_small {
+      font-weight: normal;
+      font-size: 25px;
+      line-height: 35px;
+      text-transform: initial;
+      margin-top: 15px;
+    }
+    &:before {
+      position: absolute;
+      content: '';
+      width: 17px;
+      height: 100%;
+      background: linear-gradient(0deg, #5100A1, #5100A1), linear-gradient(180deg, #FFB8FE 0%, #FFB7D4 100%), #C4C4C4;
+      left: 0;
+      top: 0;
+    }
+  }
+  &__descr  {
+    font-size: 45px;
+    line-height: 50px;
+    color: #5100A1;
+    margin-top: 50px;
+  }
+}

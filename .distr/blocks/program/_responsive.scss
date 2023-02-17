@@ -1,0 +1,58 @@
+.program {
+  @media screen and (max-width: 1199px) {
+    padding: 50px 0;
+    &__title {
+      &-logo {
+        width: 25%;
+      }
+    }
+    &__block {
+      &-title {
+        font-size: 24px;
+        line-height: 28px;
+      }
+      &-descr {
+        & ul li {
+          margin-bottom: 15px;
+          font-size: 18px;
+          line-height: 26px;
+          &::before {
+            top: 8px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 991px) {
+    
+  }
+  @media screen and (max-width: 767px) {
+    &__block {
+      padding: 20px;
+      &-title {
+        font-size: 15px;
+        line-height: 18px;
+      }
+      &-descr {
+        padding-top: 20px;
+        & ul li {
+          margin-bottom: 10px;
+          font-size: 11px;
+          line-height: 15px;
+          padding-left: 15px;
+          &::before {
+            top: 3px;
+            width: 8px;
+            height: 8px;
+          }
+        }
+      }
+      &-controls {
+        &::after,
+        &::before {
+          width: 20px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.about {
+  padding: /* 600px */ 5vw 0 8vw;
+
+  &__title {
+    margin: 50px 0 30px;
+  }
+
+  &__list {
+    font-size: 35px;
+    line-height: 45px;
+    & li {
+      margin-bottom: 15px;
+      padding-left: 50px;
+      position: relative;
+      &::before {
+        position: absolute;
+        content: "";
+        width: 12px;
+        height: 12px;
+        background: #5100a1;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

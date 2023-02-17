@@ -1,0 +1,38 @@
+.who {
+  @media screen and (max-width: 1440px) {
+    padding: 100px 0 150px;
+    &__descr {
+      font-size: 25px;
+      line-height: 35px;
+    }
+    &__title {
+      margin-top: 50px;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    background-position-x: left;
+    padding: 50px 0 100px;
+    &__speaker {
+      max-width: 460px;
+      margin: 0 auto 30px;
+    }
+    &__title,
+    &__descr {
+      max-width: 460px;
+      margin: 0 auto;
+    }
+    &__title {
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    padding: 30px 0 70px;
+    &__speaker {
+      max-width: 360px;
+    }
+    &__descr {
+      font-size: 15px;
+      line-height: 18px;
+    }
+  }
+}

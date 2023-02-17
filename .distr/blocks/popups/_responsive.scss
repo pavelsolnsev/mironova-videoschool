@@ -1,0 +1,22 @@
+.popup {
+  @media (max-width: 767px) {
+    padding: 25px;
+    .form {
+      &__text {
+        &::after {
+          width: 60px;
+          height: 10px;
+        }
+      }
+    }
+    &-success {
+      &__text {
+        font-size: 15px;
+        line-height: 18px;
+      }
+      &__button {
+        height: 50px;
+      }
+    }
+  }
+}

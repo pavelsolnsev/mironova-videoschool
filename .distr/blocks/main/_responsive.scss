@@ -1,0 +1,59 @@
+.main {
+  @media screen and (max-width: 1440px) {
+    &__content {
+      padding: 8vh 0 8vh 4vw;
+    }
+    &__descr {
+      font-size: 25px;
+      line-height: 35px;
+      max-width: 545px;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    height: 100%;
+    &__title {
+      & > div {
+        font-size: 25px;
+        line-height: 35px;
+      }
+    }
+    .container {
+      max-width: 960px;
+    }
+    &__content {
+      padding-left: 0;
+    }
+  }
+  @media screen and (max-width: 991px) {
+    .container {
+      max-width: 720px;
+    }
+    &__content {
+      padding: 40vh 0 8vh;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    & video {
+      display: none;
+    }
+    .container {
+      max-width: 540px;
+    }
+    &__content {
+      padding: 37vh 0 8vh;
+    }
+    &__title {
+      & > div {
+        font-size: 13px;
+        line-height: 16px;
+      }
+    }
+    &__descr {
+      font-size: 15px;
+      line-height: 18px;
+    }
+    &__button {
+      height: 50px;
+    }
+  }
+}

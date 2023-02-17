@@ -1,0 +1,56 @@
+.footer {
+  &__top {
+    min-height: 90px;
+    background: rgba(81, 0, 161, 0.9);
+    padding: 25px 0;
+  }
+  &__logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  &__contacts {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    color: #ffffff;
+  }
+  &__phone {
+    line-height: 30px;
+    color: #ffffff;
+  }
+  &__bottom {
+    min-height: 70px;
+    background: #ffffff;
+    padding: 25px 0;
+    font-size: 15px;
+    line-height: 18px;
+  }
+  &__develop, &__privacy, &__public-offer {
+    text-decoration: underline;
+    & a {
+      color: #333333;
+    }
+  }
+  &__copyright {
+    text-align: center;
+  }
+  &__privacy {
+    text-align: right;
+  }
+
+  &__public-offer a {
+    color: #333333;
+  }
+}
+
+
+.fancybox-slide--iframe .fancybox-content {
+  width  : 90%;
+  height : 100%;
+  max-width  : 1000px;
+  max-height : 100%;
+  margin: 0;
+  background: #191919;
+}
